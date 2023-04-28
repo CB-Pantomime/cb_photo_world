@@ -3,8 +3,6 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { Row, Col, Image, Container, Card } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 
 // screens
 import HomeScreen from './screens/HomeScreen.js';

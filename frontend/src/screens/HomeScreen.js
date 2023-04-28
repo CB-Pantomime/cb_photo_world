@@ -1,5 +1,5 @@
 
-import axios from 'axios';
+
 import '../App.css';
 import React, { useState, useEffect } from 'react';
 import { Row, Col, Image, Container, Card } from 'react-bootstrap';
