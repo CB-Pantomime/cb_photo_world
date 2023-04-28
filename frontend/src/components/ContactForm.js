@@ -10,7 +10,6 @@ function ContactForm() {
     if (state.succeeded) {
         return <Container>
             <p>Thank you for your inquiry &#x1F41A; </p>
-            <GoBackComponent />
         </Container>
         
     }
