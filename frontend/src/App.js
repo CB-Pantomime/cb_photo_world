@@ -3,7 +3,9 @@
 import './App.css';
 import React, { useState, useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-
+// components
+import HeaderComponent from './components/HeaderComponent.js';
+import GoBackComponent from './components/GoBackComponent.js';
 // screens
 import HomeScreen from './screens/HomeScreen.js';
 import HelloScreen from './screens/HelloScreen.js'
@@ -29,6 +31,7 @@ import ConsonantBlendsScreen from './screens/ConsonantBlendsScreen.js';
 function App() {
   return (
     <>
+    <HeaderComponent />
       <Routes>
         <Route index element={<HomeScreen />}/>
           <Route 

@@ -1,6 +1,6 @@
 
 import { Image } from 'react-bootstrap';
-
+import GoBackComponent from '../components/GoBackComponent.js';
 
 const SuddenlyTwoScreen = () => {
     return (
@@ -49,6 +49,7 @@ const SuddenlyTwoScreen = () => {
                 >
                 </Image>
             </div>
+            <GoBackComponent />
         </div>
     );
 };

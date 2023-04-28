@@ -1,6 +1,6 @@
 
 import { Image } from 'react-bootstrap';
-
+import GoBackComponent from '../components/GoBackComponent.js';
 
 const SlimNightFantasyExitScreen = () => {
     return (
@@ -91,6 +91,7 @@ const SlimNightFantasyExitScreen = () => {
                 >
                 </Image>
             </div>
+            <GoBackComponent />
         </div>
     );
 };

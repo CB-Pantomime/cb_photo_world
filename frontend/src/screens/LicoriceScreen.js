@@ -1,5 +1,6 @@
 
 import { Image } from 'react-bootstrap';
+import GoBackComponent from '../components/GoBackComponent.js';
 
 
 const LicoriceScreen = () => {
@@ -43,6 +44,7 @@ const LicoriceScreen = () => {
                 >
                 </Image>
             </div>
+            <GoBackComponent />
         </div>
     );
 };

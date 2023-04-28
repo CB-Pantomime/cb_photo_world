@@ -1,15 +1,10 @@
 
 
 import '../App.css';
-import React, { useState, useEffect } from 'react';
-import { Row, Col, Image, Container, Card } from 'react-bootstrap';
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-// components
-import ImageComponent from '../components/ImageComponent.js';
-import HeaderComponent from '../components/HeaderComponent.js';
-// screens
-import IfItReallyIsMeScreen from '../screens/IfItReallyIsMeScreen.js';
 
 const linkStyle = {
     // textDecoration: 'none',
@@ -17,15 +12,15 @@ const linkStyle = {
     color: 'black',
     textDecorationLine: 'underline',
     textDecorationStyle: 'bold',
-    textDecorationThickness: '8px',
-    textUnderlineOffset: '10px',
-    textDecorationColor: 'rgb(211, 173, 217)'
+    textDecorationThickness: '4px',
+    textUnderlineOffset: '7px',
+    textDecorationColor: 'rgb(201, 191, 217)'
 }
 
 const HomeScreen = () => {
     return (
         <>
-        <HeaderComponent />
+        
         <main>
             
         <Container className='main-container'>
@@ -166,7 +161,7 @@ const HomeScreen = () => {
             </Link>
         </Container>
         </main>
-       
+      
         </>
     );
 };

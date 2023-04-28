@@ -1,6 +1,6 @@
 
 import { Image } from 'react-bootstrap';
-
+import GoBackComponent from '../components/GoBackComponent.js';
 
 const KiteAgainScreen = () => {
     return (
@@ -67,6 +67,7 @@ const KiteAgainScreen = () => {
                 >
                 </Image>
             </div>
+            <GoBackComponent />
         </div>
     );
 };

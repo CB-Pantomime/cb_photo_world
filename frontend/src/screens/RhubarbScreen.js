@@ -1,5 +1,6 @@
 
 import { Image } from 'react-bootstrap';
+import GoBackComponent from '../components/GoBackComponent.js';
 
 
 const RhubarbScreen = () => {
@@ -49,6 +50,7 @@ const RhubarbScreen = () => {
                 >
                 </Image>
             </div>
+            <GoBackComponent />
         </div>
     );
 };

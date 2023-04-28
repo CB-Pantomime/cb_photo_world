@@ -1,7 +1,7 @@
 
 
 import { Image } from 'react-bootstrap';
-
+import GoBackComponent from '../components/GoBackComponent.js';
 
 const IfItReallyIsMeScreen = () => {
     return (
@@ -55,7 +55,9 @@ const IfItReallyIsMeScreen = () => {
                 alt='a smiling woman near the river bank'
                 >
                 </Image>
+               
             </div>
+            <GoBackComponent />
         </div>
     );
 };

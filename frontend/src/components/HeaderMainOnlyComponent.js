@@ -14,7 +14,7 @@ const linkStyle = {
     textDecorationColor: 'rgb(124, 121, 125)'
 }
 
-const HeaderComponent = () => {
+const HeaderMainOnlyComponent = () => {
     return (
         <header>
             <Link
@@ -25,13 +25,13 @@ const HeaderComponent = () => {
             <p>hello</p>
             </Link>
 
-            {/* <Link
+            <Link
              to='/' 
              className='p-right'
              style={linkStyle}
                 >
                <p>main</p>
-            </Link> */}
+            </Link>
             
             <Link
              to='/contact' 
@@ -44,4 +44,4 @@ const HeaderComponent = () => {
     );
 };
 
-export default HeaderComponent;
+export default HeaderMainOnlyComponent;
