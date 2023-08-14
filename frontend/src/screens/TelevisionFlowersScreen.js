@@ -2,14 +2,18 @@
 import { Image } from 'react-bootstrap';
 import GoBackComponent from '../components/GoBackComponent.js';
 import { Container } from 'react-bootstrap';
+import TVFPromoteComponent from '../components/tvfPromoteComponent.js';
 
 const TelevisionFlowersScreen = () => {
     return (
         <div className="scroll">
+            <TVFPromoteComponent />
             <div className='gallery'>
-                <Container>
+                {/* <Container>
                     <p>"I always notice flowers" -Andy Warhol</p>
-                </Container>
+                </Container> */}
+                
+
                 <Image
                 className="single-image"
                 src='https://res.cloudinary.com/dxov7pk4a/image/upload/v1682703702/CB%20Photo%20World%20Root/television%20flowers/1CBEF0F3-5188-46FE-A95B-4F49994533B2_1_105_c_xdoy07.jpg'

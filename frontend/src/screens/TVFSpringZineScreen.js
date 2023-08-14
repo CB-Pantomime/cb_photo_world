@@ -1,11 +1,12 @@
 
 import { Image } from 'react-bootstrap';
 import GoBackComponent from '../components/GoBackComponent.js';
-
+import TVFPromoteComponent from '../components/tvfPromoteComponent.js';
 
 const TVFSpringZineScreen = () => {
     return (
         <div className="scroll">
+            <TVFPromoteComponent />
             <div className='gallery'>
                 <Image
                 className="single-image"
@@ -19,24 +20,24 @@ const TVFSpringZineScreen = () => {
                 alt='flowers on television'
                 >
                 </Image>
-                <Image
+                {/* <Image
                 className="single-image"
                 src='https://res.cloudinary.com/dxov7pk4a/image/upload/v1682650075/CB%20Photo%20World%20Root/television%20flowers%20spring%20zine/55134722-9EA5-4EFA-9212-045ED28AA407_1_105_c_q8cpwq.jpg'
                 alt='flowers on television'
                 >
-                </Image>
+                </Image> */}
                 <Image
                 className="single-image"
                 src='https://res.cloudinary.com/dxov7pk4a/image/upload/v1682650075/CB%20Photo%20World%20Root/television%20flowers%20spring%20zine/6794A238-78C6-4A03-8368-2371D625F9C2_1_105_c_dmutv0.jpg'
                 alt='flowers on television'
                 >
                 </Image>
-                <Image
+                {/* <Image
                 className="single-image"
                 src='https://res.cloudinary.com/dxov7pk4a/image/upload/v1682650075/CB%20Photo%20World%20Root/television%20flowers%20spring%20zine/C8790598-3114-494C-82D8-54A51E124074_1_105_c_brm6ri.jpg'
                 alt='flowers on television'
                 >
-                </Image>
+                </Image> */}
                 <Image
                 className="single-image"
                 src='https://res.cloudinary.com/dxov7pk4a/image/upload/v1682650075/CB%20Photo%20World%20Root/television%20flowers%20spring%20zine/B9FA468E-F690-4525-863A-F4DECC13831B_1_105_c_t9g9h2.jpg'
