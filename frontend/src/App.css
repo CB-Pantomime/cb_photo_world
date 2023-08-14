@@ -37,6 +37,7 @@ main {
     justify-content: center;
     flex-direction: column;
     margin: auto;
+    margin-bottom: 150px;
     width: 100%;
     padding: 10px;
 }
@@ -111,3 +112,11 @@ width: 125%;
     box-shadow: -5px 5px rgb(21,20,20);
   }
   
+  .TVFPromoteComponent-container {
+    margin-bottom: 100px;
+  }
+  .h1-callToAction-televisionFlowersApp {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 200;
+  }
