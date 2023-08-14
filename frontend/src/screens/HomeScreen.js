@@ -69,7 +69,7 @@ const HomeScreen = () => {
              className='btn btn my-3'
              style={linkStyle}
             >
-            <h3>television flowers - spring zine</h3>
+            <h3>television flowers (spring zine)</h3>
             </Link>
 
             <Link
@@ -133,7 +133,7 @@ const HomeScreen = () => {
              className='btn btn my-3'
              style={linkStyle}
             >
-            <h3>T E L E V I S I O N &nbsp; F L O W E R S</h3>
+            <h3>television flowers ('16 - '18 )</h3>
             </Link>
 
             <Link

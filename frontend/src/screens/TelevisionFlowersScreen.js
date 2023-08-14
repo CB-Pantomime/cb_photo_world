@@ -2,7 +2,7 @@
 import { Image } from 'react-bootstrap';
 import GoBackComponent from '../components/GoBackComponent.js';
 import { Container } from 'react-bootstrap';
-import TVFPromoteComponent from '../components/tvfPromoteComponent.js';
+import TVFPromoteComponent from '../components/TVFPromoteComponent.js';
 
 const TelevisionFlowersScreen = () => {
     return (
